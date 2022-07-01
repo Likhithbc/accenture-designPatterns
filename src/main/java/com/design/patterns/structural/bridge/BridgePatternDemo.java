@@ -4,7 +4,7 @@ public class BridgePatternDemo {
 
   public static void main(String[] args) {
 
-    QuestionFormat questions = new QuestionFormat("Java Programming Language");
+    var questions = new QuestionFormat("Java Programming Language");
 
     questions.q = new JavaQuestions();
 

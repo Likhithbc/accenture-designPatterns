@@ -2,22 +2,16 @@ package com.design.patterns.behavioral.template;
 
 public abstract class Game {
 
-  abstract void initialize();
+  abstract void initialize(); // initialize the game
 
-  abstract void start();
+  abstract void start(); // start game
 
-  abstract void end();
+  abstract void end(); // end game
 
   // template method
   public final void play() {
-
-    // initialize the game
     initialize();
-
-    // start game
     start();
-
-    // end game
     end();
   }
 }

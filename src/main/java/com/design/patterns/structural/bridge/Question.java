@@ -2,15 +2,15 @@ package com.design.patterns.structural.bridge;
 
 public interface Question {
 
-  public void nextQuestion();
+  void nextQuestion();
 
-  public void previousQuestion();
+  void previousQuestion();
 
-  public void newQuestion(String q);
+  void newQuestion(String q);
 
-  public void deleteQuestion(String q);
+  void deleteQuestion(String q);
 
-  public void displayQuestion();
+  void displayQuestion();
 
-  public void displayAllQuestions();
+  void displayAllQuestions();
 }

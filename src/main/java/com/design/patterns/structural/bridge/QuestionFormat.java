@@ -9,9 +9,10 @@ public class QuestionFormat extends QuestionManager {
     super(catalog);
   }
 
+  @Override
   public void displayAll() {
 
-    log.info("\n--------------------------------------------------------------------");
+    log.info("--------------------------------------------------------------------");
     super.displayAll();
     log.info("-----------------------------------------------------------------------");
   }

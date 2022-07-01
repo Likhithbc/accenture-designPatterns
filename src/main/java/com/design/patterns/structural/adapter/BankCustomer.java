@@ -6,9 +6,9 @@ import lombok.extern.slf4j.Slf4j;
 public class BankCustomer extends BankDetails implements CreditCard {
   public void giveBankDetails() {
     try {
-      var customerName = "customerName";
+      var customerName = "Customer Name";
       var accNo = 111111111;
-      var bankName = "bank name";
+      var bankName = "Bank Name";
 
       setAccHolderName(customerName);
       setAccNumber(accNo);

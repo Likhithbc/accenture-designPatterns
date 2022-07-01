@@ -8,7 +8,7 @@ import java.util.List;
 @Slf4j
 public class JavaQuestions implements Question {
 
-  private List<String> questions = new ArrayList<String>();
+  private final List<String> questions = new ArrayList<>();
 
   private int current = 0;
 
@@ -44,7 +44,7 @@ public class JavaQuestions implements Question {
   }
 
   public void displayAllQuestions() {
-    for (String quest : questions) {
+    for (var quest : questions) {
       log.info(quest);
     }
   }

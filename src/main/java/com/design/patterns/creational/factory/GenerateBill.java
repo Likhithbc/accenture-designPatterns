@@ -13,7 +13,7 @@ public class GenerateBill {
   public static final String SEPARATOR = "***************************************";
   public static GetPlanFactory planFactory = new GetPlanFactory();
 
-  public static void main(String args[]) throws IOException {
+  public static void main(String[] args) throws IOException {
 
     log.info(SEPARATOR);
     planExecution(DOMESTIC_PLAN, 20);
